@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-jwt-extended = "*"
+flask-bcrypt = "*"
+flask-mongoengine = "*"
+black = "==18.5b0"
+
+[dev-packages]
+black = "*"
+
+[requires]
+python_version = "3.8"
